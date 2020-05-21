@@ -6,13 +6,6 @@
 
 $conn = mysqli_connect("localhost","root","","crud");
 
-if(){
-
-}
-
-function validate(){
-	
-}
 $sql = "INSERT INTO student(sname,saddress,sclass,sphone) VALUES('{$stname}','{$staddress}','{$stclass}','{$stphone}')";
 
 $result = mysqli_query($conn, $sql);
@@ -20,4 +13,4 @@ $result = mysqli_query($conn, $sql);
 	header("location: http://localhost/crud/index.php");
 
 	mysqli_close($conn);
- ?>
+ ?>s
